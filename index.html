@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punjabi Player</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- navbar starts here  -->
+    <nav class="navbar">
+
+        <p>PUNJABI PLAYER</p>
+    </nav>
+
+    <!-- navbar finishes here  -->
+
+    <!-- mid section starts here  -->
+    <section id="mid">
+        <img class="imgmainman" id="manimg" src="assets/svg/non-audio-svg/main-man.svg" alt="mainman">
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+    </section>
+
+   
+
+    <section id="bottom">
+        <img class="image" id="img1" src="assets/svg/tumbi.svg" alt="tumbi" ondragstart="drag(event)" draggable="true">
+        <img class="image" id="img2" src="assets/svg/flute.svg" alt="flute" ondragstart="drag(event)" draggable="true">
+        <img  class="image" id="img3" src="assets/svg/dambru.svg" alt="damru" ondragstart="drag(event)" draggable="true">
+        <img class="image" id="pauseButton" src="assets/svg/non-audio-svg/pause.svg" onclick="toggle()" alt="pause/play">
+        <img class="image" id="img4" src="assets/svg/tabla.svg" alt="tabla" ondragstart="drag(event)" draggable="true">
+        <img class="image" id="img5" src="assets/svg/piano.svg" alt="piano" ondragstart="drag(event)" draggable="true">
+        <img class="image"  id="img6" src="assets/svg/burah.svg" alt="burrah effect" ondragstart="drag(event)" draggable="true">
+       
+    </section>
+
+    <footer class="foot">
+        <p>COPYRIGHT© | INDERPAL SINGH BRAR</p>
+    </footer>
+
+    <audio data-audioref ="img1" id="sound1" class="audio" src="assets/audios/tumbi.mp3" loop></audio>
+    <audio data-audioref ="img2" id="sound2" class="audio" src="assets/audios/Flute.mp3" loop></audio>
+    <audio data-audioref ="img3" id="sound3" class="audio" src="assets/audios/Damru.mp3" loop></audio>
+    <audio data-audioref ="img4" id="sound4" class="audio" src="assets/audios/tabla.mp3" loop></audio>
+    <audio data-audioref ="img5" id="sound5" class="audio" src="assets/audios/piano.mp3" loop></audio>
+    <audio data-audioref ="img6" id="sound6" class="audio" src="assets/audios/Burrah.mp3" loop></audio>
+    
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
