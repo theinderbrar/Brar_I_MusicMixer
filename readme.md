@@ -1,6 +1,6 @@
 # Strategy
 
-The strategy for the website was we needed a drag and drop. So, when any user drag and drop the instrument on the drag and drop box it should start playing the music only related to the instrument and when we click on pause it should pause the music.
+The strategy for the website is that we needed a drag and drop. So, when any user drag and drop the instrument on the drag and drop box it should start playing the music only related to the instrument and when we click on pause it should pause the music.
 
 # Technology used
 
