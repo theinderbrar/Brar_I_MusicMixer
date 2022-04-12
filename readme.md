@@ -12,5 +12,5 @@ JAVASCRIPT to apply business logic
 # Bugs and Coding improvements
 
 The first bug I encounter was in play and pause.
-When I click on pause it pauses the music but once again I clicekd on play, it unable to play the music and dancing of the man. So, to fix this we defined a global variable isplaying which save the state of the player . 
+When I click on pause it pauses the music but once again when I clicked on play, it unable to play the music and dancing of the man. So, to fix this we defined a global variable isplaying which save the state of the player . 
         
