@@ -13,4 +13,7 @@ JAVASCRIPT to apply business logic
 
 The first bug I encounter was in play and pause.
 When I click on pause it pauses the music but once again when I clicked on play, it unable to play the music and dancing of the man. So, to fix this we defined a global variable isplaying which save the state of the player . 
-        
+
+# Extra info
+
+To listen the pure and simple old style punjabi music you can play the very first icon, .ie., tumbi and the very last, .i.e, burraah it is a kind of thing poeple used to do when they are happy and even its used in the punjabi beats.
