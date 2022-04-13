@@ -51,7 +51,7 @@ function toggle()
     }
     else if(isplaying == true)
     {
-       document.getElementById("playButton").src="assets/svg/non-audio-svg/play.svg"; 
+       document.getElementById("pauseButton").src="assets/svg/non-audio-svg/play.svg"; 
         sound1.pause();  
         sound2.pause();  
         sound3.pause();  
